@@ -1,4 +1,10 @@
-const solution = "CAIXAS";
+function aleatoridades(){
+    var palavras = ['CAIXA','MOTOR','PORTA','TENDA','PAULO']
+    var resultado = palavras[Math.floor(Math.random() * 5)]
+    return resultado
+}
+
+var solution = aleatoridades();
 let currentGuess = "";
 let currentRow = 0;
 
